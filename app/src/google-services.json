@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "39310658091",
+    "project_id": "my-clipboard-51938",
+    "storage_bucket": "my-clipboard-51938.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39310658091:android:19d6308972b045135d786e",
+        "android_client_info": {
+          "package_name": "com.example.my_clipboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39310658091-u9uvnl75oe2honbqcj1tclag9sg42kvs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwkxAl07PqNvG7FFvBI6hzyTtQ-yyhdsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39310658091-u9uvnl75oe2honbqcj1tclag9sg42kvs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

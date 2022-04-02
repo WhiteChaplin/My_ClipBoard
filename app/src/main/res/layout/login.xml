@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log_In"
+        android:textSize="40dp"
+        android:gravity="start|top"
+        android:layout_alignParentStart="true"
+        android:fontFamily="@font/robotomedium"
+        android:letterSpacing="0.05"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-MAIL"
+        android:gravity="start|top"
+        android:textColor="#000000"
+        android:textSize="13dp"
+        android:fontFamily="@font/robotomedium"
+        android:letterSpacing="0.05"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="200dp"/>
+
+    <EditText
+        android:id="@+id/EditEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="example@naver.com"
+        android:textColorHint="#B6B6B6"
+        android:layout_toRightOf="@id/text_id"
+        android:layout_alignBaseline="@id/text_id"
+        android:layout_marginLeft="81dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/text_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"
+        android:gravity="start|top"
+        android:textColor="#000000"
+        android:textSize="13dp"
+        android:fontFamily="@font/robotomedium"
+        android:letterSpacing="0.05"
+        android:layout_below="@id/text_id"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="47.3dp"/>
+
+    <EditText
+        android:id="@+id/EditTextPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="6자리 이상 입력해주세요"
+        android:textColorHint="#B6B6B6"
+        android:layout_toRightOf="@id/text_password"
+        android:layout_alignBaseline="@id/text_password"
+        android:layout_marginLeft="52dp"
+        android:textSize="15dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:text="Login"
+        android:background="#FFEB3B"
+        android:layout_below="@id/EditTextPass"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="30dp"
+        />
+
+    <Button
+        android:id="@+id/btn_sign"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:text="Sign_Up"
+        android:background="#FFEB3B"
+        android:layout_toRightOf="@id/btn_login"
+        android:layout_below="@id/EditTextPass"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="20dp"
+        />
+
+</RelativeLayout>
